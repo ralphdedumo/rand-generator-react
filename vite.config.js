@@ -6,6 +6,6 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
     // Use relative assets so the app works on GitHub Pages project sites
-    base: './',
+    base: '/rand-generator-react',
     plugins: [react(), tailwindcss()],
 })
